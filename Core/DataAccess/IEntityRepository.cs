@@ -1,11 +1,12 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
+    // core katmanı refarans almaz her projede kullanılabilmek için
     // generic constrain
     //class
     //IEntity : IEntity oalbilr veya onu implemente eden bir nesne olabliir
